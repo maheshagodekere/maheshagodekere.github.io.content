@@ -1,0 +1,75 @@
++++
+author = "Mahesha Godekere"
+categories = ["AI"]
+date = "2018-01-08"
+description = "Artificial Intelligence (AI) technologies is flourishing"
+featured = "robot.jpg"
+fcaption = "Photo by Daniel Cheung on Unsplash"
+fcaptionurl="https://unsplash.com/@danielkcheung"
+featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "Artificial intelligence is the future"
+type = "post"
++++
+
+
+
+
+
+
+The market for **Artificial Intelligence** (AI) technologies is flourishing.
+Artificial intelligence is rapidly coming of age, survived the hype and poised to transform businesses and industries 
+globally.
+
+<a href="http://www.gartner.com/newsroom/id/3763265" target="_blank">Gartner</a> says AI technologies will be in almost
+ every new software product by 2020. Billions of dollars are invested in new AI developments. IDC estimated that the AI
+  market will grow from $8 billion in 2016 to more than $47 billion in 2020.
+
+Renowned AI scholar Andrew Ng said 
+<a href="http://news.stanford.edu/thedish/2017/03/14/andrew-ng-why-ai-is-the-new-electricity/" target="_blank">**AI is the new Electricity**! </a> 
+He said **if a task takes you less than one second of thought, a machine can probably do it**. Such is the power of AI. 
+To stay competitive, organisations need AI specialists now. To satisfy this high global demand for skilled 
+professionals in the field AI, most developers need to re-skill to survive AI tsunami!
+
+
+### What is artificial intelligence?
+Gone are the days when developers program computers to develop products and services. In a traditional programming, 
+a developer writes instructions for computers using various programming languages while developing products and 
+services. With Artificial Intelligence, developers don’t write instructions instead they **train computers**.
+
+
+For example, if the use case is to recognise a Lily flower in a image as shown below, developers don’t program 
+computers to look for features of Lily flower in an image. Instead they simply show thousands and thousands of photos 
+of a ‘Lilly’ flowers to train the computer to recognise a Lily flower.
+
+<div>
+<img class="image featured" src="/img/2018/01/lillylist.jpeg" >
+<span class="fcaption">Lily Training Data. Courtesy Google Images</span>
+</div>
+
+If the computer misclassify Lily flower as Rose flower, developer don’t fix code, instead they keep training the computer.
+
+<div>
+<img class="image featured" src="/img/2018/01/googlelensapp.jpeg" >
+<span class="fcaption">Google Lens App: Flower recognition feature using AI</span>
+</div>
+
+<a href="https://a16z.com/2016/08/20/why-software-is-eating-the-world/" target="_blank">
+Marc Andreessen said, Software is eating the world</a>, but 
+<a href="https://www.technologyreview.com/s/607831/nvidia-ceo-software-is-eating-the-world-but-ai-is-going-to-eat-software/" target="_blank">
+AI is eating software said Nvidia CEO</a>. 
+Yes, there is a need for vast amounts of data to power AI systems. Thanks to smartphones boom and affordable internet access, most of the 
+organisations are sitting on this huge smartphone behavioural data. This data is used to build AI systems.
+
+AI is not new. It’s been around for decades mostly as academic research. Sophisticated faster network of computers are 
+needed to train AI systems. The rise of cloud computing, deep neural networks, massively distributed computational 
+systems, <a href="https://www.forbes.com/sites/janakirammsv/2017/08/07/in-the-era-of-artificial-intelligence-gpus-are-the-new-cpus/#510b38a15d16" target="_blank">
+Graphics Processing Unit (GPU)</a>, and <a href="https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu" target="_blank">
+Google’s Tensor Processing Unit (TPU)</a> aid AI to flourish.
+
+
+
+
+As the AI attains newer level, more organisations are embracing AI by creating different processes, tool sets 
+empowering developers to develop and deploy AI in more complex areas of business domain.

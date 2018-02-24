@@ -1,0 +1,99 @@
++++
+type = "notes"
+author = "Mahesha Godekere"
+date = "2018-02-01"
+title = "Artificial Neural Network Learning"
+description = "Artificial Neural Network Learning - processes, mathematics and intuition"
+featured = ""
+featuredpath = ""
+featuredalt = ""
+categories = [""]
+linktitle = ""
+format = "Neural Network"
+link = "#"
++++
+
+## 1. Overview
+**Artificial neural networks (ANNs)** are a powerful class of models used for **nonlinear regression and classification** tasks
+inspired by **biological neural** computation.
+Significance of this notes is to give the clarity and completeness on the **Neural Network Learning**
+process and **mathematics** behind it!
+
+## 2. Neural Network Learning
+Neural Network consist of  **input, hidden, or output layers**. There is only **one input layer** and **one output layer**
+but the number of **hidden layers is unlimited**. Neural Networks are `feed-forward` because
+nodes within a particular layer are connected only to nodes in the immediately `downstream`
+layer, so that nodes in the input layer activate only nodes in the subsequent hidden
+layer, which in turn activate only nodes in the next hidden layer, and so on until the nodes
+of the final hidden layer, which acts as output layer. This arrangement is illustrated in the three layered network
+with one hidden layer figure 1 below.
+
+
+Let $$ J(\theta) = 3\theta^2 + 2$$
+
+Let $$\theta = 1$ and $\epsilon = 0.01$$
+
+Use the formula to numerically compute an approximation to the derivative of $$\theta$$
+at $$theta = 1$$
+
+$$
+\[
+\frac{J(\theta + \epsilon) - J(\theta + \epsilon)}{2\epsilon}
+\]
+\[
+= \frac{(3(1.01)^2 + 2) - (3(0.99)^2 + 2)}{0.002}
+= 9.003
+\]
+$$
+
+
+
+<div class="center">
+<img class="image center" src="/img/2018/02/nn.jpg" >
+<span class="fcaption">Fig 1.Neural Network</span>
+</div>
+
+The Neural Network Learning is divided into two phases:
+
+> ##### a. Forward Propogation
+> ##### b. Backpropogation
+
+## 3. Forward Propogation
+
+
+## 2. What is backpropogation?
+Backpropagation is a method used in artificial neural networks to calculate a gradient (loss) used by the gradient descent
+optimization algorithm to adjust the weight of neurons. This technique is also called **backward propagation of
+errors**, because the error is calculated at the output and distributed back through the network layers.
+
+
+
+
+## 2. Recap
+
+The **cost function** for neural networks is a generic form of **logistic regression** function as below:
+
+>$$ \begin{aligned} J(\Theta) = - \frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K \left[y^{(i)}_k \log ((h_\Theta (x^{(i)}))_k) + (1 - y^{(i)}_k)\log (1 - (h_\Theta(x^{(i)}))_k)\right] + \frac{\lambda}{2m}\sum_{l=1}^{L-1} \sum_{i=1}^{s_l} \sum_{j=1}^{s_{l+1}} ( \Theta_{j,i}^{(l)})^2 \end{aligned} \tag{1}$$
+>L = total number of layers in the network <br/>
+>l = number of units (not counting bias unit) in layer l<br/>
+>k = number of output units/classes<br/>
+>i = training set<br/>
+>$$ h_\Theta(x)_k $$ = hypothesis that results in the  $$ k^{th} $$ output<br/>
+</br/>
+> * The double sum simply adds up the logistic regression costs calculated for each cell in the output layer<br/>
+> * The triple sum simply adds up the squares of all the individual Θs in the entire network<br/>
+> * The i in the regularization triple sum does not refer to training example i<br/>
+
+## 3. Backpropagation error $$\delta^{(l)}$$
+
+To prove that error delta  $$\delta^{(l)}$$ of layer l is:
+
+>$$\delta^{(l)} = ((\Theta^{(l)})^T \delta^{(l+1)})\ .*\ a^{(l)}\ .*\ (1 - a^{(l)}) \tag{2}$$
+
+## 4. The Delta Rule
+
+Least Mean Square (LMS) method,
+
+
+### References:
+[^citation]: he well known Pythagorean theorem blah @ https://google.com/

@@ -1,0 +1,137 @@
+{{ partial "header" . }}
+    {{ $.Scratch.Set "shareNav" true }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        <!-- Posts List -->
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                <div class="posts-container">
+                    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+                    {{ with .Site.Params.postAmount.sidebar }}
+                    {{ $.Scratch.Set "postLimit" . }}
+                    {{ else }}
+                    {{ $.Scratch.Set "postLimit" 3 }}
+                    {{ end }}
+
+                    {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+                    <article class="mini-post">
+                        <header>
+                            <h3>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h3>
+                            {{ $.Scratch.Set "dateType" .Date }}
+                            <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                            </time>
+                        </header>
+                        {{ .Render "featured" }}
+                    </article>
+                    {{ end }}
+                </div>
+
+                {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+                <a href=
+                           {{ with .Site.Params.viewMorePostLink }}
+                   {{ . }}
+                   {{ else }}
+                "/post/"
+                {{ end }}
+                class="button">View more posts</a>
+                {{ end }}
+            </div>
+        </section>
+    </br>
+
+        <section id="recent-projects">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent projects</h3>
+                </header>
+                <div class="posts-container">
+                    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+                    {{ with .Site.Params.postAmount.sidebar }}
+                    {{ $.Scratch.Set "postLimit" . }}
+                    {{ else }}
+                    {{ $.Scratch.Set "postLimit" 3 }}
+                    {{ end }}
+
+                    {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "projects") }}
+                    <article class="mini-post">
+                        <header>
+                            <h3>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h3>
+                            {{ $.Scratch.Set "dateType" .Date }}
+                            <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                            </time>
+                        </header>
+                        {{ .Render "featured" }}
+                    </article>
+                    {{ end }}
+                </div>
+
+                {{ if ge (len (where .Site.Pages "Type" "projects")) ($.Scratch.Get "postLimit") }}
+                <a href=
+                           {{ with .Site.Params.viewMoreProjectsLink }}
+                   {{ . }}
+                   {{ else }}
+                "/projects/"
+                {{ end }}
+                class="button">View more projects</a>
+                {{ end }}
+            </div>
+        </section>
+        </br>
+
+        <section id="recent-notes">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent notes</h3>
+                </header>
+                <div class="posts-container">
+                    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+                    {{ with .Site.Params.postAmount.sidebar }}
+                    {{ $.Scratch.Set "postLimit" . }}
+                    {{ else }}
+                    {{ $.Scratch.Set "postLimit" 3 }}
+                    {{ end }}
+
+                    {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "notes") }}
+                    <article class="mini-post">
+                        <header>
+                            <h3>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h3>
+                            {{ $.Scratch.Set "dateType" .Date }}
+                            <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                            </time>
+                        </header>
+                        {{ .Render "featured" }}
+                    </article>
+                    {{ end }}
+                </div>
+
+                {{ if ge (len (where .Site.Pages "Type" "notes")) ($.Scratch.Get "postLimit") }}
+                <a href=
+                           {{ with .Site.Params.viewMoreNotesLink }}
+                   {{ . }}
+                   {{ else }}
+                "/notes/"
+                {{ end }}
+                class="button">View more Notes</a>
+                {{ end }}
+            </div>
+        </section>
+    </div>
+
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

@@ -1,0 +1,175 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Mahesha Godekere"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 10
+disqusShortname = "maheshagodekere-com"
+googleAnalytics = ""
+pluralizeListTitles = false
+
+[params]
+  # Sets the meta tag description
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Mahesha Godekere"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
+  viewMoreProjectsLink     = "/projects/"
+  viewMoreNotesLink     = "/notes/"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = false
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
+
+  [params.staticman.recaptcha]
+    sitekey = "SITE_KEY"
+    secret  = "ENCRYPTED_SECRET"
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Mahesha Godekere"
+
+  paragraph = "My Tech Stipple <i class='fa fa-thumbs-up'></i>"
+
+  about     = "Mahesha Godekere has 20+ years experience in software architecture, designing, developing, and deploying large scale, mission-critical and high transaction enterprise applications. </br> He is currently focused on Machine Learning with an emphasis on Deep Learning initiatives. </br>He also works closely with a number of startups and early stage companies."
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/main/logo.jpg"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = ""
+    alt       = "Mahesha Godekere"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 3
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 2
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  identifier = "fa fa-edit"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  identifier = "fa fa-cubes"
+  weight = 4
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 5
+
+
+#[[menu.main]]
+#  name = "Contact"
+#  url = "/contact/"
+#  identifier = "fa fa-envelope-o"
+#  weight = 5
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github          = "maheshagodekere"
+  twitter         = "maheshagodekere"
+  linkedin        = "maheshagodekere"
+  facebook        = "maheshagodekere"
+  instagram       = "maheshagodekere"
+# Email
+  email           = "mahesha.godekere@gmail.com"
+#  gitlab          = ""
+#  stackoverflow   = "" # User Number
+#  bitbucket       = ""
+#  jsfiddle        = ""
+#  codepen         = ""
+#  # Visual Art Communities
+#  deviantart      = ""
+#  flickr          = "example"
+#  behance         = ""
+#  dribbble        = ""
+#  # Publishing Communities
+#  wordpress       = ""
+#  medium          = ""
+  # Professional/Business Oriented Communities
+#  foursquare      = ""
+#  xing            = ""
+#  slideshare      = ""
+  # Social Networks
+#  googleplus      = ""
+#  reddit          = "example"
+#  quora           = ""
+#  youtube         = ""
+#  vimeo           = ""
+#  whatsapp        = "" # WhatsApp Number
+#    # WeChat and QQ need testing.
+#    wechat          = ""
+#    qq              = "" # User ID Number
+#  tumblr          = ""
+#  skype           = ""
+#  snapchat        = ""
+#  pinterest       = "example"
+#  telegram        = "example"
+#  vine            = ""
+
+FootnoteReturnLinkContents = "↑"
+

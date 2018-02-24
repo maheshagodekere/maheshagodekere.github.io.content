@@ -1,0 +1,59 @@
++++
+type = "notes"
+author = "Notes Jetson"
+date = "2017-06-23"
+title = "Decision trees"
+description = "Classification and Regression Trees or CART"
+featured = ""
+featuredpath = ""
+featuredalt = ""
+categories = [""]
+linktitle = ""
+format = "Android"
+link = "#"
++++
+
+## 1. Overview
+Decision Tree a **supervised learning algorithms** that can be used for **classification or regression predictive** 
+modeling but mostly used in classification problems. Classically, this algorithm is referred to as **decision trees**. The representation for 
+the CART model is a **binary tree**.
+
+## 2. Intuition
+A **binary tree** is a **tree data structure** in which each node has at most **two children**, which are referred to as 
+the **left child and the right child**. Thus in decision tree, the input population or sample is split into two 
+homogeneous sets (or sub-populations) based on **most significant** ` splitter / criteria / differentiator` 
+in input variables as below.
+
+<div class="center">
+<img class="image center" src="/img/2018/01/dt.jpg" >
+<span class="fcaption">Dicision tree</span>
+</div>
+
+**How splitter is selected?**
+  The `splitter` is selected based on the `purity` of the **outcomes** . 
+ 
+**What is the `purity`?**
+ Measures how `homogenious` the **subsets** belong to a class after splitting.
+ Also the `impurity` results in when we have a traces of one class division into other. 
+ 
+ 
+Ideally pick an attribute that splits the population/set into pure subsets. 
+ 
+
+
+In this tutorial, commands that you enter will start with the "$" prompt. The output will follow. Lines that start with "#" are comments that I've added to explain a point. When I show updates to a file, the ":wq" on the last line means to save the file.
+
+<div>
+$$ \left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi \tag{1} $$
+</div>
+
+The well known Pythagorean theorem blah blah $$ x^2=y^2 $$ blah blah was
+proved to be invalid for other exponents. 
+Meaning the next equation has no integer solutions:
+
+$$ x^n + y^n = z^n $$
+
+Here's an example:
+
+### References:
+[^citation]: he well known Pythagorean theorem blah @ https://google.com/

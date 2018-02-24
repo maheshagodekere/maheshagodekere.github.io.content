@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mahesha Godekere</title>
+    <link>/</link>
+    <description>Recent content on Mahesha Godekere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artificial Neural Network Learning</title>
+      <link>/notes/nn-backpropagation/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/nn-backpropagation/</guid>
+      <description>1. Overview Artificial neural networks (ANNs) are a powerful class of models used for nonlinear regression and classification tasks inspired by biological neural computation. Significance of this notes is to give the clarity and completeness on the Neural Network Learning process and mathematics behind it!
+2. Neural Network Learning Neural Network consist of input, hidden, or output layers. There is only one input layer and one output layer but the number of hidden layers is unlimited.</description>
+    </item>
+    
+    <item>
+      <title>Artificial intelligence is the future</title>
+      <link>/blog/artificial-intelligence-is-the-future/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/artificial-intelligence-is-the-future/</guid>
+      <description>The market for Artificial Intelligence (AI) technologies is flourishing. Artificial intelligence is rapidly coming of age, survived the hype and poised to transform businesses and industries globally.
+Gartner says AI technologies will be in almost every new software product by 2020. Billions of dollars are invested in new AI developments. IDC estimated that the AI market will grow from $8 billion in 2016 to more than $47 billion in 2020.</description>
+    </item>
+    
+    <item>
+      <title>Decision trees</title>
+      <link>/notes/decision-trees/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/decision-trees/</guid>
+      <description>1. Overview Decision Tree a supervised learning algorithms that can be used for classification or regression predictive modeling but mostly used in classification problems. Classically, this algorithm is referred to as decision trees. The representation for the CART model is a binary tree.
+2. Intuition A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.</description>
+    </item>
+    
+    <item>
+      <title>Fancy App 1</title>
+      <link>/projects/item1/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/item1/</guid>
+      <description> App 1 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 2</title>
+      <link>/projects/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 3</title>
+      <link>/projects/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>/projects/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/item4/</guid>
+      <description> App 4 </description>
+    </item>
+    
+    <item>
+      <title>N3 App 3</title>
+      <link>/notes/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>N4 App 4</title>
+      <link>/notes/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/item4/</guid>
+      <description> App 4 </description>
+    </item>
+    
+    <item>
+      <title>Npp 2</title>
+      <link>/notes/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/blog/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
+We&#39;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/blog/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/blog/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hugoisforlovers/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+appropriate version for your os and architecture.&lt;/p&gt;
+
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
